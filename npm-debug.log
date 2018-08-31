@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'server' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 verbose run-script [ 'preserver', 'server', 'postserver' ]
+5 info lifecycle groupbimaproject@1.0.0~preserver: groupbimaproject@1.0.0
+6 silly lifecycle groupbimaproject@1.0.0~preserver: no script for preserver, continuing
+7 info lifecycle groupbimaproject@1.0.0~server: groupbimaproject@1.0.0
+8 verbose lifecycle groupbimaproject@1.0.0~server: unsafe-perm in lifecycle true
+9 verbose lifecycle groupbimaproject@1.0.0~server: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\vaibhav2\WebstormProjects\groupbimaproject\node_modules\.bin;C:\Program Files\ImageMagick-6.9.9-Q16-HDRI;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files (x86)\ActiveState Komodo IDE 9\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files\Microsoft Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files (x86)\OpenSSH\bin;C:\Users\vaibhav2\Anaconda3;C:\Users\vaibhav2\Anaconda3\Scripts;C:\Program Files\Java\jdk1.8.0_91\bin;C:\phantomjs-2.1.1-windows\bin;C:\Program Files\MongoDB\Server\3.6\bin;D:\Internet Download Manager Downloads\geckodriver-v0.21.0-win64;C:\Users\vaibhav2\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\vaibhav2\AppData\Local\Programs\Python\Python36-32\;C:\Ruby24-x64\bin;C:\Users\vaibhav2\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\vaibhav2\AppData\Local\Programs\Python\Python35\;C:\RailsInstaller\Ruby2.2.0\bin;C:\Ruby21\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.1.0\bin;C:\Users\vaibhav2\AppData\Roaming\Composer\vendor\bin;C:\Program Files\MySQL\MySQL Workbench 6.3 CE;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC;C:\Users\vaibhav2\AppData\Local\Programs\Common\Microsoft\Visual C++ for Python\9.0;C:\3xampp3\php;C:\Users\vaibhav2\AppData\Roaming\npm;C:\Program Files\nodejs;D:\Internet Download Manager Downloads\curl-7.52.1 (1)\src;C:\Users\vaibhav2\Desktop\nc111nt;C:\Program Files\Heroku\bin;C:\Program Files\Microsoft VS Code\bin;;D:\Internet Download Manager Downloads\geckodriver-v0.21.0-win64;
+10 verbose lifecycle groupbimaproject@1.0.0~server: CWD: C:\Users\vaibhav2\WebstormProjects\groupbimaproject
+11 silly lifecycle groupbimaproject@1.0.0~server: Args: [ '/d /s /c', 'nodemon server.jsx' ]
+12 silly lifecycle groupbimaproject@1.0.0~server: Returned: code: 3221225786  signal: null
+13 info lifecycle groupbimaproject@1.0.0~server: Failed to exec server script
+14 verbose stack Error: groupbimaproject@1.0.0 server: `nodemon server.jsx`
+14 verbose stack Exit status 3221225786
+14 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid groupbimaproject@1.0.0
+16 verbose cwd C:\Users\vaibhav2\WebstormProjects\groupbimaproject
+17 error Windows_NT 6.3.9600
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "server"
+19 error node v6.9.1
+20 error npm  v3.10.8
+21 error code ELIFECYCLE
+22 error groupbimaproject@1.0.0 server: `nodemon server.jsx`
+22 error Exit status 3221225786
+23 error Failed at the groupbimaproject@1.0.0 server script 'nodemon server.jsx'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the groupbimaproject package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     nodemon server.jsx
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs groupbimaproject
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls groupbimaproject
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

@@ -1,0 +1,18 @@
+.center1
+{
+
+
+
+}
+
+.boundary1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1
+{
+    text-align: left;
+}
